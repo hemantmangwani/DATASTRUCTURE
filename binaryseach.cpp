@@ -4,13 +4,13 @@ int bs(int * ,int ,int ,int );
 int main()
 {
 	int a[size],n,ans,f,l,key,i,t;
-	//printf("enter n= ");
+	printf("enter n= ");
 	scanf("%d",&n);
 	for(i=0;i<n;i++) scanf("%d",&a[i]);
 	scanf("%d",&t);
 	while(t--)
 	{
-	//printf("enter key= ");
+	printf("enter key= ");
 	scanf("%d",&key);
 	f=0;
 	l=n-1;
